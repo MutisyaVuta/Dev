@@ -33,10 +33,19 @@
 # print(f"The area of a rectangle is {area} cm ")
 
 #shopping cart program
-item = input("What item would you like to buy?: ")
-price = float(input ("What is the price?: "))
-quantity = int(input("How many items would you like?: "))
+# item = input("What item would you like to buy?: ")
+# price = float(input ("What is the price?: "))
+# quantity = int(input("How many items would you like?: "))
 
-total_price = price*quantity
+# total_price = price*quantity
 
-print(f"The total is {total_price} dollars")
+# print(f"The total is {total_price} dollars")
+
+friends = 5
+# friends = friends+1
+# friends +=1
+# friends = friends-1
+# friends -= 1
+# friends = friends*2
+friends *=2
+print(f"Your new friends are {friends}")
